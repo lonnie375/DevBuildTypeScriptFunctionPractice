@@ -1,9 +1,7 @@
-let printTime2 = () => {
-    console.log(new Date());
-}
+// let printTime2 = () => {
+//     console.log(new Date());
+// }
 
-setInterval(
-    () => {
-        printTime2(); 
-    }, 5000
-); 
+setInterval(function(){
+    console.log(new Date());
+}, 5000); 

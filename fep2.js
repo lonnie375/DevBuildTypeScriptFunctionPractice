@@ -5,7 +5,12 @@
 // Print out the sum
 var numbers = [5, 10, 15, 20, 25, 30];
 var sum = 0;
-numbers.forEach(function (number) {
-    sum += number;
+// numbers.forEach(
+//     (number: number) => {
+//         sum += number;
+//     }
+// ); 
+numbers.forEach(function (numbers) {
+    sum += numbers;
 });
 console.log(sum);

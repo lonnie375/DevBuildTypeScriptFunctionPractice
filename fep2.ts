@@ -7,10 +7,9 @@
 let numbers: number [] = [5, 10, 15, 20, 25, 30]; 
 let sum: number = 0; 
 
-numbers.forEach(
-    (number: number) => {
-        sum += number;
-    }
-); 
+
+numbers.forEach(function(numbers: number) {
+    sum += numbers; 
+})
 
 console.log(sum);
